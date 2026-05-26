@@ -1,0 +1,18 @@
+print("1. Circle")
+print("2. Rectangle")
+
+choice = int(input("Choose shape: "))
+
+if choice == 1:
+    radius = float(input("Enter radius: "))
+    area = 3.14 * radius * radius
+    print("Area of Circle:", area)
+
+elif choice == 2:
+    length = float(input("Enter length: "))
+    breadth = float(input("Enter breadth: "))
+    area = length * breadth
+    print("Area of Rectangle:", area)
+
+else:
+    print("Invalid choice")
